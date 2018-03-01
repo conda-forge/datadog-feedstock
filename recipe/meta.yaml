@@ -1,6 +1,6 @@
 {% set name = "datadog" %}
-{% set version = "0.17.0" %}
-{% set sha256 = "7c65dbf28407d603c34b18b452d9cd08eadfbb3464debba42057b4f9449b8d15" %}
+{% set version = "0.19.0" %}
+{% set sha256 = "ec476e6f474955770d414d4cffa272d68b2715e59cbb9d7bb561da037c2041bf" %}
 
 package:
   name: {{ name|lower }}
