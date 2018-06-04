@@ -15,12 +15,15 @@ The Python integration enables you to monitor any custom metric by instrumenting
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/datadog-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/datadog-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/datadog-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/datadog-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/datadog/badges/version.svg)](https://anaconda.org/conda-forge/datadog)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/datadog/badges/downloads.svg)](https://anaconda.org/conda-forge/datadog)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-datadog-green.svg)](https://anaconda.org/conda-forge/datadog) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/datadog.svg)](https://anaconda.org/conda-forge/datadog) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/datadog.svg)](https://anaconda.org/conda-forge/datadog) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/datadog.svg)](https://anaconda.org/conda-forge/datadog) |
 
 Installing datadog
 ==================
