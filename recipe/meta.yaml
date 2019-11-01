@@ -1,6 +1,6 @@
 {% set name = "datadog" %}
-{% set version = "0.30.0" %}
-{% set sha256 = "07c053e39c6509023d69bc2f3b8e3d5d101b4e75baf2da2b9fc707391c3e773d" %}
+{% set version = "0.31.0" %}
+{% set sha256 = "4989c12d163983000dd9190308db5579b2b1a69ac592d01b695d9c0b4d59bcff" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - dog = datadog.dogshell:main
     - dogwrap = datadog.dogshell.wrap:main
