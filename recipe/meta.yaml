@@ -1,6 +1,6 @@
 {% set name = "datadog" %}
-{% set version = "0.34.1" %}
-{% set sha256 = "3bd8cc3d6915c6ac74c68093068b903de3fae22b8dd3d31480bfc2092a1f51d7" %}
+{% set version = "0.35.0" %}
+{% set sha256 = "f4a36a8130dccd2a5e019082fd14d1ad55e8d5a74f29a0abdc5dba975e35fe62" %}
 
 package:
   name: {{ name|lower }}
@@ -42,7 +42,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'The Datadog Python library'
+  summary: The Datadog Python library
 
   description: |
     The Python integration enables you to monitor any custom metric by instrumenting a few lines of code.
