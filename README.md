@@ -5,7 +5,7 @@ Home: https://github.com/DataDog/datadogpy
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: The Datadog Python library
 
