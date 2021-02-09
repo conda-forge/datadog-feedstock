@@ -5,9 +5,11 @@ Home: https://github.com/DataDog/datadogpy
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datadog-feedstock/blob/master/LICENSE.txt)
 
 Summary: The Datadog Python library
+
+Documentation: https://docs.datadoghq.com/integrations/python/
 
 The Python integration enables you to monitor any custom metric by instrumenting a few lines of code.
 
@@ -117,6 +119,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@TheOriginalAlex](https://github.com/TheOriginalAlex/)
 * [@mariusvniekerk](https://github.com/mariusvniekerk/)
 
