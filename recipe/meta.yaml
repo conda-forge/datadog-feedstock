@@ -1,6 +1,6 @@
 {% set name = "datadog" %}
-{% set version = "0.40.0" %}
-{% set sha256 = "4bbd66a02bbcf9cd03ba05194d605a64c9efb7aed90d5e69c6ec42655c3c01a4" %}
+{% set version = "0.40.1" %}
+{% set sha256 = "438c1dde5462e68c5c792b7b4a1d87a0ddd970af3db31b3cf15980eed0c44311" %}
 
 package:
   name: {{ name|lower }}
@@ -21,13 +21,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - decorator >=3.3.2
     - requests >=2.6.0
-    - simplejson >=2.0.9
 
 test:
   imports:
@@ -50,5 +49,4 @@ about:
 
 extra:
   recipe-maintainers:
-
     - mariusvniekerk
