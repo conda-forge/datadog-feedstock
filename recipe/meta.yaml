@@ -21,13 +21,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - decorator >=3.3.2
     - requests >=2.6.0
-    - simplejson >=2.0.9
 
 test:
   imports:
@@ -50,5 +49,4 @@ about:
 
 extra:
   recipe-maintainers:
-
     - mariusvniekerk
