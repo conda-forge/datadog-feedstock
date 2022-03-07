@@ -23,7 +23,7 @@ requirements:
   host:
     - python >=3.6
     - pip
-    - hatch
+    - hatchling
   run:
     - python >=3.6
     - decorator >=3.3.2
