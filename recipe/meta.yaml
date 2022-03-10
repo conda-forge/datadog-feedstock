@@ -1,6 +1,6 @@
 {% set name = "datadog" %}
-{% set version = "0.43.0" %}
-{% set sha256 = "1f2123083d9e1add6f238c62714b76ac2fc134d7d1c435cd82b976487b191b96" %}
+{% set version = "0.44.0" %}
+{% set sha256 = "071170f0c7ef22511dbf7f9bd76c4be500ee2d3d52072900a5c87b5495d2c733" %}
 
 package:
   name: {{ name|lower }}
@@ -23,6 +23,7 @@ requirements:
   host:
     - python >=3.6
     - pip
+    - hatchling
   run:
     - python >=3.6
     - decorator >=3.3.2
