@@ -1,6 +1,6 @@
 {% set name = "datadog" %}
-{% set version = "0.50.2" %}
-{% set sha256 = "17725774bf2bb0a48f1d096d92707492c187f24ae08960af0b0c2fa97958fd51" %}
+{% set version = "0.51.0" %}
+{% set sha256 = "3279534f831ae0b4ae2d8ce42ef038b4ab38e667d7ed6ff7437982d7a0cf5250" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - dog = datadog.dogshell:main
