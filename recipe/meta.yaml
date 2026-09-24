@@ -1,6 +1,6 @@
 {% set name = "datadog" %}
-{% set version = "0.53.0" %}
-{% set sha256 = "9f69a18089c852e20edff7e55226a6f4ca9749e162cfa4ae88c949dd722ebef8" %}
+{% set version = "0.54.0" %}
+{% set sha256 = "62afcedb3e56b8ea6fff04aa807ebcbf9a6bd843bd1c7feab0a9035ce21b8ca2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
